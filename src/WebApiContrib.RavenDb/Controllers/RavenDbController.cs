@@ -6,6 +6,6 @@ namespace WebApiContrib.RavenDb.Controllers {
 	/// This class contains a ASP.NET Web API base controller for use with RavenDb
 	/// </summary>
 	public class RavenDbController : ApiController {
-		public new IDocumentSession Session { get; set; }
+		public IDocumentSession Session { get; set; }
 	}
 }
